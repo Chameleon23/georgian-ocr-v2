@@ -201,7 +201,7 @@ def read(image_path, correct_words=False, debug=True):
     
     print "overall time: "+str(timeit.default_timer()-overall_time)
 
-    #return read_text 
+    return read_text 
 
 
 if __name__ == '__main__':
